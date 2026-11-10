@@ -2,3 +2,5 @@
 lib/
 *.dll
 !build/**/*.dll
+# 인스턴스 로컬 상태
+.worker/

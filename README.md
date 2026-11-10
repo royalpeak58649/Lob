@@ -12,3 +12,14 @@
 ## 주의
 
 - 게임 원본 파일(`Assembly-CSharp.dll` 등)은 이 저장소에 올리지 않는다.
+
+## 폴더
+
+| 경로 | 내용 |
+|---|---|
+| `art/requests/` | 그림 요청 (Claude가 작성). 규격은 `art/README.md` |
+| `art/raw/` | 인스턴스가 생성한 원본 그림 |
+| `art/processed/` | 게임 규격으로 가공한 그림 |
+| `art/style.txt` | 모든 그림에 공통으로 붙는 화풍 지시 |
+| `pipeline/instance/` | 인스턴스용 스크립트 (5분마다 자동 실행) |
+| `mod/` | 모드 소스 (XML, C#) |
